@@ -1,0 +1,381 @@
+h1 {
+  font-family: "Agbalumo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  font-family: "Englebert", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Englebert", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fuzzy-bubbles-bold {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+body {
+    background: linear-gradient(135deg, #fce4ec, #f8d9e6, #f5e6d8);
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.tarjeta {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 40px auto;
+    box-shadow: 0 15px 35px rgba(120, 75, 90, 0.2);
+}
+
+.texto {
+    flex: 1;
+    text-align: left;
+}
+
+.texto h1 {
+    color: #a66b7b;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #624b50;
+}
+
+.imagen {
+    width: 300px;
+}
+
+.imagen img {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(90, 60, 60, 0.2);
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    gap: 20px;
+}
+.contenedor-tarjetas .tarjeta h2 {
+    color: #a66b7b;
+    font-family: "Agbalumo", cursive;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #e8b8c5;}
+
+
+    .contenedor-tarjetas .tarjeta {
+    border: 2px solid #f0c8d3;
+    box-shadow: 0 8px 20px rgba(150, 90, 110, 0.15);
+    transition: 0.3s;}
+
+    .contenedor-tarjetas .tarjeta:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(150, 90, 110, 0.22);} 
+    .contenedor-tarjetas .tarjeta {
+    display: block;
+    text-align: center;
+}
+
+.contenedor-tarjetas .tarjeta h2 {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contenedor-tarjetas .tarjeta p {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    gap: 20px;
+}
+
+.contenedor-tarjetas .tarjeta {
+    flex: 1;
+    width: 0;
+    box-sizing: border-box;
+}
+
+.contenedor-tarjetas .tarjeta ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-tarjetas .tarjeta li {
+    margin: 10px 0;
+}
+
+.contenedor-tarjetas .tarjeta li::before {
+    content: "♡";
+    color: #c77d91;
+    margin-right: 8px;}
+
+    .representa {
+    margin-top: 30px;
+    text-align: center;
+    border: 2px solid #e8b8c5;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.representa h2 {
+    color: #9d6072;
+    font-family: "Agbalumo", cursive;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.representa p {
+    color: #8b6872;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.representa {
+    display: block;
+    text-align: center;
+}
+
+.representa h2 {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.representa p {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;}
+
+    .representaciones {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 25px;
+}
+
+.representaciones div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.representaciones img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(150, 100, 130, 0.25);
+}
+
+.representaciones span {
+    color: #795762;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.representaciones img {
+    width: 230px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 6px 18px rgba(250, 250, 250, 0.25);
+}   
+
+
+
+
+
+
+header {
+    text-align: center;
+    padding: 35px 20px;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #f5f2f3);
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 5px 15px rgb(255, 147, 203);
+}
+
+header h1 {
+    margin: 0;
+    color: #000000;
+    font-size: 38px;
+}
+
+header p {
+    margin-top: 10px;
+    color: #000000;
+    font-size: 17px;
+}
+
+
+
+.contacto {
+    width: 85%;
+    max-width: 930px;
+    margin: 70px auto;
+    padding: 45px 40px;
+    
+    background: rgba(255, 255, 255, 0.90);
+    border: 2px solid #efb5c8;
+    border-radius: 28px;
+
+    box-shadow: 0 12px 30px rgba(180, 105, 130, 0.18);
+
+    text-align: center;
+}
+
+.contacto h2 {
+    margin: 0;
+    color: #5d252f;
+    font-size: 32px;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+
+.subtitulo-contacto {
+    margin-top: 10px;
+    margin-bottom: 35px;
+
+    color: #9b6875;
+    font-size: 17px;
+    font-style: italic;
+}
+
+
+
+
+.contactos-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.contacto-item {
+    flex: 1;
+    min-width: 220px;
+
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    padding: 20px;
+
+    background: #fff8fa;
+    border: 1px solid #efc1cf;
+    border-radius: 20px;
+
+    transition: all 0.3s ease;
+}
+
+
+.contacto-item:hover {
+    transform: translateY(-6px);
+
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(180, 105, 130, 0.20);
+}
+
+
+
+
+.icono {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 15px;
+
+    background: #f6d6e0;
+    border-radius: 50%;
+
+    font-size: 24px;
+}
+
+
+
+
+.contacto-item h3 {
+    margin: 0 0 5px;
+
+    color: #6d303b;
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+
+
+
+.contacto-item a {
+    color: #9b6875;
+    text-decoration: none;
+    font-size: 15px;
+
+    transition: color 0.3s ease;
+}
+
+.contacto-item a:hover {
+    color: #c45f7b;
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 700px) {
+
+    .contacto {
+        width: 80%;
+        padding: 35px 20px;
+    }
+
+    .contacto h2 {
+        font-size: 26px;
+    }
+
+    .contactos-container {
+        flex-direction: column;
+    }
+
+    .contacto-item {
+        width: auto;
+    }
+}
